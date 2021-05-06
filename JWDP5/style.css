@@ -1,0 +1,23 @@
+.espace {
+    margin: 1em;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.card-body {
+    z-index: 1;
+}
+
+
+.zoom img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: 1s ease-in-out;
+	transition: 1s ease-in-out;
+    overflow: hidden;
+}
+.zoom:hover img {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+    overflow: hidden;
+}
